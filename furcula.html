@@ -10,34 +10,53 @@
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      font-size: 1.2em;
+      line-height: 1.6;
+      background: linear-gradient(to bottom, white, #ADD8E6); /* Add this line for the background gradient */
+    }
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      background: linear-gradient(to right, #0000ff, #ffff00); /* Change blue to yellow */
+      background-size: 200% 100%;
+      background-position: right bottom;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 5s ease infinite;
+    }
+    @keyframes gradient {
+      0% { background-position: right bottom; }
+      50% { background-position: left bottom; }
+      100% { background-position: right bottom; }
     }
     img {
       width: 50%; /* Make images 50% of the page width */
       margin: 20px;
       border: 1px solid #ccc;
     }
+    p {
+      font-size: 1.1em;
+    }
+    /* Add small text at the bottom */
+    footer {
+      font-size: 0.8em;
+      text-align: center;
+      padding: 20px 0;
+    }
   </style>
 </head>
 <body>
   <h1>What is a Furcula?</h1>
-  
   <!-- Add a picture of a dinosaur here -->
-  <img src="dino-picture-1.jpg" alt="Dinosaur with furcula">
-  
+  <img src="dinopic1.jpg" alt="Dinosaur with furcula">
   <p>The wishbone, or furcula, is like a secret superhero bone found in birds. Imagine it as a V-shaped bone that helps birds fly better. But here’s the really cool part: this bone has been around for a super long time, even before birds!</p>
-  
   <p>Way back when dinosaurs roamed the Earth, some of them had furculas too. It's like they had a sneak peek of what was to come – birds! Scientists think that the furcula might have been one of the first steps towards birds learning to fly. So, in a way, dinosaurs were the pioneers of flight!</p>
-  
   <!-- Add a picture of a bird here -->
   <img src="bird-picture-1.jpg" alt="Bird with furcula">
-  
   <p>Now, if we look at the furcula of dinosaurs and compare it to birds today, we see some amazing similarities. Both have this V-shape that helps make their wings stronger. It's like having a built-in support system for flying. Plus, both dinosaurs and birds use their furcula for muscles that help them flap their wings, giving them the power to soar through the sky.</p>
-  
   <p>But there are some differences too. Some dinosaurs had furculas that weren’t as developed as those of birds. This might mean they didn’t fly the same way modern birds do. And if you look at different bird species, you’ll notice that their wishbones can look really different. That’s because each bird has its own special way of flying, and their furcula helps them do it just right.</p>
-  
   <!-- Add a picture of a dinosaur fossil here -->
   <img src="dino-fossil-picture.jpg" alt="Dinosaur fossil with furcula">
-  
-  <p>So, the furcula is like a time-traveling bone, connecting the flying dinosaurs of the past to the birds we see today. It’s a reminder of how incredible evolution is and how animals have adapted over millions of years to conquer the skies.</p>
-</body>
-</html>
+    <p>So, the furcula is like a time-traveling bone, connecting the flying dinosaurs of the past to the birds we see today. It’s a reminder of how incredible evolution is and how animals have adapted over millions of years to conquer the skies.</p>
+  <!-- Add small text at the bottom -->
+  <footer> @2024 Dillon Smith
